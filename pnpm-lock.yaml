@@ -8,6 +8,11 @@ overrides:
   '@types/react': npm:types-react@19.0.0-rc.1
   '@types/react-dom': npm:types-react-dom@19.0.0-rc.1
 
+patchedDependencies:
+  '@payloadcms/ui':
+    hash: b7eoda7zpzqpv57o366vumicku
+    path: patches/@payloadcms__ui.patch
+
 importers:
 
   .:
@@ -4640,7 +4645,7 @@ snapshots:
       '@dnd-kit/core': 6.0.8(react-dom@19.0.0-rc-65a56d0e-20241020(react@19.0.0-rc-65a56d0e-20241020))(react@19.0.0-rc-65a56d0e-20241020)
       '@payloadcms/graphql': 3.0.0-beta.123(graphql@16.9.0)(payload@3.0.0-beta.123(graphql@16.9.0)(monaco-editor@0.52.0)(react-dom@19.0.0-rc-65a56d0e-20241020(react@19.0.0-rc-65a56d0e-20241020))(react@19.0.0-rc-65a56d0e-20241020)(typescript@5.6.3))(typescript@5.6.3)
       '@payloadcms/translations': 3.0.0-beta.123
-      '@payloadcms/ui': 3.0.0-beta.123(monaco-editor@0.52.0)(next@15.0.0(react-dom@19.0.0-rc-65a56d0e-20241020(react@19.0.0-rc-65a56d0e-20241020))(react@19.0.0-rc-65a56d0e-20241020)(sass@1.77.4))(payload@3.0.0-beta.123(graphql@16.9.0)(monaco-editor@0.52.0)(react-dom@19.0.0-rc-65a56d0e-20241020(react@19.0.0-rc-65a56d0e-20241020))(react@19.0.0-rc-65a56d0e-20241020)(typescript@5.6.3))(react-dom@19.0.0-rc-65a56d0e-20241020(react@19.0.0-rc-65a56d0e-20241020))(react@19.0.0-rc-65a56d0e-20241020)(types-react@19.0.0-rc.1)(typescript@5.6.3)
+      '@payloadcms/ui': 3.0.0-beta.123(patch_hash=b7eoda7zpzqpv57o366vumicku)(monaco-editor@0.52.0)(next@15.0.0(react-dom@19.0.0-rc-65a56d0e-20241020(react@19.0.0-rc-65a56d0e-20241020))(react@19.0.0-rc-65a56d0e-20241020)(sass@1.77.4))(payload@3.0.0-beta.123(graphql@16.9.0)(monaco-editor@0.52.0)(react-dom@19.0.0-rc-65a56d0e-20241020(react@19.0.0-rc-65a56d0e-20241020))(react@19.0.0-rc-65a56d0e-20241020)(typescript@5.6.3))(react-dom@19.0.0-rc-65a56d0e-20241020(react@19.0.0-rc-65a56d0e-20241020))(react@19.0.0-rc-65a56d0e-20241020)(types-react@19.0.0-rc.1)(typescript@5.6.3)
       busboy: 1.6.0
       file-type: 19.3.0
       graphql: 16.9.0
@@ -4699,7 +4704,7 @@ snapshots:
       '@lexical/utils': 0.18.0
       '@payloadcms/next': 3.0.0-beta.123(graphql@16.9.0)(monaco-editor@0.52.0)(next@15.0.0(react-dom@19.0.0-rc-65a56d0e-20241020(react@19.0.0-rc-65a56d0e-20241020))(react@19.0.0-rc-65a56d0e-20241020)(sass@1.77.4))(payload@3.0.0-beta.123(graphql@16.9.0)(monaco-editor@0.52.0)(react-dom@19.0.0-rc-65a56d0e-20241020(react@19.0.0-rc-65a56d0e-20241020))(react@19.0.0-rc-65a56d0e-20241020)(typescript@5.6.3))(react-dom@19.0.0-rc-65a56d0e-20241020(react@19.0.0-rc-65a56d0e-20241020))(react@19.0.0-rc-65a56d0e-20241020)(types-react@19.0.0-rc.1)(typescript@5.6.3)
       '@payloadcms/translations': 3.0.0-beta.123
-      '@payloadcms/ui': 3.0.0-beta.123(monaco-editor@0.52.0)(next@15.0.0(react-dom@19.0.0-rc-65a56d0e-20241020(react@19.0.0-rc-65a56d0e-20241020))(react@19.0.0-rc-65a56d0e-20241020)(sass@1.77.4))(payload@3.0.0-beta.123(graphql@16.9.0)(monaco-editor@0.52.0)(react-dom@19.0.0-rc-65a56d0e-20241020(react@19.0.0-rc-65a56d0e-20241020))(react@19.0.0-rc-65a56d0e-20241020)(typescript@5.6.3))(react-dom@19.0.0-rc-65a56d0e-20241020(react@19.0.0-rc-65a56d0e-20241020))(react@19.0.0-rc-65a56d0e-20241020)(types-react@19.0.0-rc.1)(typescript@5.6.3)
+      '@payloadcms/ui': 3.0.0-beta.123(patch_hash=b7eoda7zpzqpv57o366vumicku)(monaco-editor@0.52.0)(next@15.0.0(react-dom@19.0.0-rc-65a56d0e-20241020(react@19.0.0-rc-65a56d0e-20241020))(react@19.0.0-rc-65a56d0e-20241020)(sass@1.77.4))(payload@3.0.0-beta.123(graphql@16.9.0)(monaco-editor@0.52.0)(react-dom@19.0.0-rc-65a56d0e-20241020(react@19.0.0-rc-65a56d0e-20241020))(react@19.0.0-rc-65a56d0e-20241020)(typescript@5.6.3))(react-dom@19.0.0-rc-65a56d0e-20241020(react@19.0.0-rc-65a56d0e-20241020))(react@19.0.0-rc-65a56d0e-20241020)(types-react@19.0.0-rc.1)(typescript@5.6.3)
       '@types/uuid': 10.0.0
       bson-objectid: 2.0.4
       dequal: 2.0.3
@@ -4721,7 +4726,7 @@ snapshots:
     dependencies:
       date-fns: 3.3.1
 
-  '@payloadcms/ui@3.0.0-beta.123(monaco-editor@0.52.0)(next@15.0.0(react-dom@19.0.0-rc-65a56d0e-20241020(react@19.0.0-rc-65a56d0e-20241020))(react@19.0.0-rc-65a56d0e-20241020)(sass@1.77.4))(payload@3.0.0-beta.123(graphql@16.9.0)(monaco-editor@0.52.0)(react-dom@19.0.0-rc-65a56d0e-20241020(react@19.0.0-rc-65a56d0e-20241020))(react@19.0.0-rc-65a56d0e-20241020)(typescript@5.6.3))(react-dom@19.0.0-rc-65a56d0e-20241020(react@19.0.0-rc-65a56d0e-20241020))(react@19.0.0-rc-65a56d0e-20241020)(types-react@19.0.0-rc.1)(typescript@5.6.3)':
+  '@payloadcms/ui@3.0.0-beta.123(patch_hash=b7eoda7zpzqpv57o366vumicku)(monaco-editor@0.52.0)(next@15.0.0(react-dom@19.0.0-rc-65a56d0e-20241020(react@19.0.0-rc-65a56d0e-20241020))(react@19.0.0-rc-65a56d0e-20241020)(sass@1.77.4))(payload@3.0.0-beta.123(graphql@16.9.0)(monaco-editor@0.52.0)(react-dom@19.0.0-rc-65a56d0e-20241020(react@19.0.0-rc-65a56d0e-20241020))(react@19.0.0-rc-65a56d0e-20241020)(typescript@5.6.3))(react-dom@19.0.0-rc-65a56d0e-20241020(react@19.0.0-rc-65a56d0e-20241020))(react@19.0.0-rc-65a56d0e-20241020)(types-react@19.0.0-rc.1)(typescript@5.6.3)':
     dependencies:
       '@dnd-kit/core': 6.0.8(react-dom@19.0.0-rc-65a56d0e-20241020(react@19.0.0-rc-65a56d0e-20241020))(react@19.0.0-rc-65a56d0e-20241020)
       '@dnd-kit/sortable': 7.0.2(@dnd-kit/core@6.0.8(react-dom@19.0.0-rc-65a56d0e-20241020(react@19.0.0-rc-65a56d0e-20241020))(react@19.0.0-rc-65a56d0e-20241020))(react@19.0.0-rc-65a56d0e-20241020)
