@@ -41,3 +41,7 @@ next-env.d.ts
 .env
 
 /media
+
+# playwright
+/playwright-report/
+/test-results/
